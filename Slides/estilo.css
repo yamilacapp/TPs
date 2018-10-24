@@ -1,0 +1,65 @@
+.slider {
+	width: 100%;
+	height: 400px;
+	margin-top: 150px;
+	vertical-align: center;
+	background-color: pink;
+	
+}
+
+.slider2, .menu, .menu2 {
+	display: inline-block;
+	margin-top: 0;
+}
+
+.menu, .menu2 {
+	position: relative;
+	top: -100px;
+}
+
+.menu2 {
+    position: relative;
+    left: 350px;
+}
+
+a {
+	display: block;
+	border-radius: 25%;
+	padding: 20px;
+	width: 70px;
+	margin-top: 20px;
+	background-color: grey;
+	border: 2px solid black;
+	text-decoration: none;
+	color: black;
+	font-weight: 2;
+
+}
+
+.image {
+    display: inline-block;
+	margin-left: 10px;
+	background-color: green;
+
+ 
+}
+
+.buttomleft{
+
+	margin-left: 250px;
+}
+
+.buttomleft, .buttomright {
+
+    position: relative;
+    top: -200px;
+	display: inline;
+	background-color: orange;
+
+}
+
+button {
+
+	border-radius: 15%;
+	padding: 10px;
+}

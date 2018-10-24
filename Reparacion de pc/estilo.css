@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'IBM Plex Serif', serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+
+
+header {
+	width: 100%;
+
+	border: 1px solid blue;
+	background-color: 	#1E90FF;
+	border-bottom: 2px solid blue;
+
+    
+}
+
+
+
+section {
+
+	width: 100%;
+
+	background: url("image2.jpg") no-repeat ;
+    background-size: 100% 100%;
+    margin-top: -10px;
+	}
+
+
+.logo, .titulo, .telefono {
+	display: inline-block;
+	position: relative;
+	top: -50px;
+}
+
+.logo {
+position: relative;
+top: -40px;}
+
+.titulo {
+	
+
+	text-shadow: -5px 5px 5px #FFFAF0;
+	position: relative;
+	top: -10px;
+}
+
+.titulo h3 {
+	margin-top: -20px;
+}
+
+
+
+.telefono h1 {
+
+	font-size: 70px;
+margin-left: 200px;
+position: relative;
+top: 30px;
+	text-shadow: -5px 5px 5px #FFFAF0;
+}
+
+li {
+
+	font-size: 50px;
+}
+
+.servicios h1{
+
+	margin-left: 100px;
+	margin-top: 25px;
+	font-size: 50px;
+	text-decoration: underline;
+	font-style: italic;
+
+}
+
+footer {
+	width: 100%;
+
+	border: 1px solid blue;
+	background-color: 	#1E90FF;
+	border-top: 2px solid blue;
+	margin-top: 25px;
+    
+}
+
+.imagen {
+  display: inline-block;
+  position: relative;
+  left: 500px;
+  top: -50px;
+
+}
+.contacto {
+	padding-top: 20px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.contacto h2 {
+	font-size: 25px;
+	margin-top: -10px;
+}
+
+.underline {
+	
+	text-decoration: underline;
+}
+
+
+@media (max-width: 900px){
+
+.telefono {
+
+display: block;
+font-size: 20px;
+
+}
+
+.telefono h1{
+
+	margin-left: 0;
+position: relative;
+left: 0;
+background-color: blue;
+
+}
+
+section {
+
+	font-size: 25px;
+}
+
+.contacto, .imagen {
+
+	display: block;
+}
+
+.imagen {
+
+	position: relative;
+	top: 50px;
+	left: 0;
+}
+
+}

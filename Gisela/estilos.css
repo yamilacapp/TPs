@@ -1,0 +1,411 @@
+body {        
+	margin: 0;
+    padding: 0;
+    border: 0;
+outline: 0;
+    vertical-align: baseline;
+	font-family: 'Montserrat', sans-serif;
+letter-spacing: 0.1cm;
+	    font-size: 10px;
+    background: 0 0;
+
+	width: 100%;
+	height: 1400px;
+	color: black;
+
+}
+
+
+header{
+
+width: 100%;
+
+padding: 10px;
+padding-left: 100px;
+position: fixed;
+top: 0;
+left: 0;
+background-color: white;
+z-index: 1;
+margin-bottom: 30px;
+
+
+}
+
+
+.principal {
+	display: inline-block;
+
+	margin-left: 100px;
+	
+}
+
+h2{
+
+	font-size: 20px;
+	margin-left: 50px;
+}
+
+p {
+margin-top: -10px;
+font-size: 12px;
+
+}
+
+.image{
+
+margin-top:90px;
+ 	width: 100%;
+	height: auto;
+}
+
+
+section {
+	display: block;
+	margin-left: 10%;
+	margin-top: 50px;
+
+	}
+
+.article {
+	display: inline-block;
+	width: 40%;
+
+	margin-left: 30px;
+	margin-top: 25px;
+}
+
+.article img {
+width: 80%;
+/*height: 230px;*/
+margin-left: 30px;
+
+}
+
+.article p{
+  width: 80%;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	letter-spacing: 0.5;
+	margin-left: 30px;
+
+}
+
+.article h3{
+
+	font-size: 15px;
+	margin-left: 30px;
+
+}
+
+.titulo {
+
+	font-size: 20px;
+	margin-left: 30px;
+
+}
+
+footer {
+	margin-top: 50px;
+	background-color: #6495ED;
+	width: 100%;
+
+	display: block;
+
+}
+
+.contacto, .formulario {
+
+   display: inline-block;
+   width: 30%;
+   height: 300px;
+   padding: 20px;
+   margin-left: 30px;
+
+}
+
+.formulario {
+	margin-top: 20px;
+}
+
+.contacto{
+
+	margin-bottom: 100px;
+	width: 30%;
+
+}
+
+.contacto p {
+	margin-top: 20px;
+}
+
+.final {
+	margin-left: 150px;
+
+}
+
+.form1 {
+	display: block;
+	width: 100%;
+}
+
+.forma{
+display: block;
+margin-top: 15px;
+position: relative;
+right: 0px;
+
+}
+
+.image1 {
+
+	width: 100%;
+
+
+	
+}
+
+.image1 img{
+ 
+ width: 100%;
+ height: 100%;
+
+}
+
+.image2 {
+width: 250px;
+height: 250px;
+position: absolute;
+right: 20px;
+top: 350px;
+padding: 20px;
+background-color: white;
+
+}
+
+.image2 img{
+
+	width: 100%;
+	height: 100%;
+}
+
+.texto {
+
+    width: 50%;
+    height: 300px;
+	display: inline-block;
+	margin: auto;
+	text-align: left;
+	padding-left: 20px;
+	letter-spacing: 0.1cm;
+	line-height: 2.5;
+	margin-left: 150px;
+	
+
+}
+
+.texto h1{
+
+	font-size: 25px;
+}
+
+.texto p {
+font-size: 13px;
+
+}
+
+.form1 {
+	 width: 100%;
+}
+
+.forma {
+	margin-right: 50px;
+}
+
+.email {
+	margin-left: 0px;
+}
+
+.asunto {
+	margin-left: 0px;
+}
+.mensaje {
+	margin-left: 0px;
+}
+
+label {
+	font-size: 15px;
+	margin-top: -5px;
+	font-weight: bold;
+}
+
+input {
+	border: 2px solid black;
+	background-color: #6495ED;
+	padding: 5px;
+}
+ 
+.boton {
+	margin-top: 20px;
+	margin-right: 50px;
+	background-color: black;
+	color: white;
+}
+
+.imagenes {
+	display: inline;
+	position: relative;
+	bottom: -10px;
+	left: 0px;
+}
+
+.clientes {
+	width: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around ;
+	align-items: center;
+	background-color: white;
+	padding: 10px;
+
+}
+
+.logos {
+
+	width: 10%;
+	}
+
+.logos img{
+	width: 100%;
+}
+
+.footer2 h1{
+
+font-size: 30px;	
+}
+
+.glaciar {
+	width: 90%;
+}
+
+.grande {
+	width: 8%;
+}
+
+.bis {
+	width: 9%;
+}
+
+@media (max-width: 900px){
+
+.clientes {
+	display: flex;
+	flex-flow: row wrap;
+}	
+
+.image2 {
+
+position: absolute;
+right: 20px;
+top: 250px;
+
+
+}
+
+
+.contacto, .formulario
+{
+	display: block;
+	width: 100%;
+	margin: 0;
+	height: 250px;
+	
+}
+
+.formulario{
+	height: 450px;
+}
+
+
+.forma {
+	margin-right: 50px;
+}
+
+.email {
+	margin-left: 0px;
+}
+
+.asunto {
+	margin-left: 0px;
+}
+.mensaje {
+	margin-left: 0px;
+}
+
+.texto {
+margin: auto;
+margin-top: 150px;
+width: 100%;
+
+}
+
+
+}
+
+
+@media (max-width: 600px){
+
+.clientes {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.image {
+
+	margin-top: 120px;
+}
+
+.principal{
+	margin: auto;
+}
+
+.texto {
+margin: auto;
+margin-top: 150px;
+width: 100%;
+
+}
+
+footer {
+    width: 100%;
+
+}
+
+.contacto, .formulario
+{
+	display: block;
+	width: 90%;
+}
+
+
+.formulario{
+	margin-left: 0px;
+	height: 500px;
+}
+
+.article {
+	display: block;
+	width: 90%;
+}
+
+.image2 {
+width: 200px;
+height: 200px;
+position: absolute;
+right: 20px;
+top: 200px;
+
+
+}
+
+}

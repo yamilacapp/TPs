@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+<title> </title>
+<link href="estilo.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+		</div>
+		<div class="slider">
+		<div class="menu">
+			<a href="">Inicio</a>
+			<a href="">Productos</a>
+			<a href="">Historia</a>
+			<a href="">Contacto</a>
+			<aside></aside>
+
+		</div>	
+		<div class="slider2">
+			<div class="image buttomleft ">
+			 <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button></div>
+	    <div class="image img">
+			<img class="mySlides" src="calza.jpg" width="300px" height="400px">
+            <img class="mySlides" src="jean.jpg" width="300px" height="400px">
+            <img class="mySlides" src="saco.jpg" width="300px" height="400px">
+            <img class="mySlides" src="sweater.jpg" width="300px" height="400px">
+        </div>
+
+
+           <div class="image buttomright">
+            <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+        </div>
+
+		</div>
+        <div class="menu2">
+			<a href="">Inicio</a>
+			<a href="">Productos</a>
+			<a href="">Historia</a>
+			<a href="">Contacto</a>
+			<aside></aside>
+
+
+
+		</div>
+	</div>
+	<footer>
+
+	</footer>
+
+
+	</div>
+<script type="text/javascript">
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+
+
+
+</script>
+</body>
+</html>
